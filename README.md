@@ -1,6 +1,8 @@
 # FlightSurety
 
-FlightSurety is a sample application project.
+FlightSurety is a sample DAPP project.
+
+Here is a link to the hosted version <a href="https://flight-insurance.on.fleek.co/">flight-surety</a>
 
 ## Install
 
