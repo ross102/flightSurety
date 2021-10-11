@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlightSurety</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">FlightSurety</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <!-- <main class="container">
+
+        <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="row top-20">
+            <label class="form">Flight</label> <input type="text" id="flight-number"> <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+        </div>
+    </main> -->
+    <main class="container">
+
+        <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="row top-20" for="flight">Purchase Insurance</div>
+        <div class="row top-20">
+            <label class="form" for="passenger-address-buy">Passenger address</label>
+            <input type="text" id="passenger-address-buy">
+            <label class="form" for="flight">Flight</label>
+            <select class="form" id="flights">
+              <option value="FL101">FL101</option>
+              <option value="FL201">FL201</option>
+              <option value="FL301">FL301</option>
+              <option value="FL401">FL401</option>
+              <option value="FL501">FL501</option>
+            </select>
+        </div>
+        <div class="row top-20">
+            <label class="form" for="flight">Insurance amount</label>
+            <input type="text" id="insurance"/><label class="form">eth</label>
+            <button class="btn btn-primary" id="purchase">Buy</button>
+        </div>
+        <div class="row top-20" for="flight">Submit to Oracles</div>
+        <div class="row top-20">
+            <label class="form">Flight</label>
+            <select id="flight-number" name="flight-number">
+              <option value="FL101">FL101</option>
+              <option value="FL201">FL201</option>
+              <option value="FL301">FL301</option>
+              <option value="FL401">FL401</option>
+              <option value="FL501">FL501</option>
+            </select>
+            <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+        </div>
+        <div class="row top-20" for="flight">Get Account Balance</div>
+        <div class="row top-20">
+            <label class="form" for="passenger">Passenger address</label>
+            <input type="text" id="passenger-address-balance">
+            <button class="btn btn-primary" id="get-balance">Get account balance</button>
+        </div>
+
+        <div class="row top-20" for="flight">Withdraw Funds</div>
+        <div class="row top-20">
+            <label class="form" for="passenger">Passenger address</label>
+            <input type="text" id="passenger-address-withdraw">
+            <button class="btn btn-primary" id="withdraw">Withdraw funds</button>
+        </div>
+    </main>
+
+</body>
+
+</html>
